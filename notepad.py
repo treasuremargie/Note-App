@@ -17,9 +17,9 @@ def openFile():
     entry.delete(1.0, tk.END)
     entry.insert(tk.INSERT, content)
 
-    def clearFiles():
-        entry.delete(1.0, tk.END)
-        
+def clearFile():
+    entry.delete(1.0, tk.END)
+
 canvas = tk.Tk()
 canvas.geometry("400x600")
 canvas.title("Notepad")
